@@ -2,7 +2,6 @@
     box-sizing: border-box;
   }
   
-  /* Single-direction margin declaration to establish vertical rhythm. */
   h1,h2,h3,
   ul,ol,
   p,
@@ -52,12 +51,8 @@
     transition: color .15s ease-in-out;
   }
   
-  /* =============================
-      HEADER STYLES
-  =============================*/
-  
   .cover {
-    background: url('images/wedding-cover.jepg') no-repeat 70% center/cover;
+    background: url('images/wedding-cover.jpeg') no-repeat 70% center/cover;
     display: table;
     text-align: center;
     height: 100vh;
@@ -87,7 +82,7 @@
   .hero-text h1 {
     font-size: 3.15rem;
     color: #d2ba87;
-    margin-bottom: 0; /* To negate the effect of the single-direction margin declaration. */
+    margin-bottom: 0; 
   }
   
   @media (min-width: 768px) {
@@ -142,11 +137,7 @@
     vertical-align: middle;
     margin: 0 .5rem;
   }
-  
-  /* =============================
-        LOCATIONS STYLES
-  =============================*/
-  
+
   .blurb img {
     height: 7.5rem;
   }
@@ -184,10 +175,6 @@
   
   }
   
-  /* =============================
-          PROGRAM STYLES
-  =============================*/
-  
   .program {
     width: 100%;
     text-align: left;
@@ -218,24 +205,17 @@
     }
   
   }
-  
-  /* =============================
-          GIFTS STYLES
-  =============================*/
-  
+
+
   .gifts img {
     height: 7.5rem;
   }
   
-  .gifts p:last-child {   /* To even out the bottom and top margins of this section. */
+  .gifts p:last-child {  
     margin-bottom: 0;
   }
   
-  
-  /* =============================
-          FAQ STYLES
-  =============================*/
-  
+ 
   .faq {
     background: hsla(100,0%,0%,.6);;
     color: #d2ba87;
@@ -290,9 +270,6 @@
     margin-bottom: 1.5rem;
   }
   
-  /* =============================
-          FOOTER STYLES
-  =============================*/
   
   footer {
     height: 10vh;
